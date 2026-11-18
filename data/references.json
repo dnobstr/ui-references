@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ref-1794811143405",
+    "catalogCode": "QUAD-005",
+    "title": "Obsidian Dark & Burnt Orange — Sidebar Application Workspace",
+    "sourceType": "paste",
+    "sourceLabel": "CLIPBOARD PASTE · IMAGE BUFFER",
+    "imageUrl": "/references/quad-005-1794811143406.png",
+    "createdAt": "2026-11-16T06:39:03.435Z",
+    "providerUsed": "Local Vision Dissector (canvas-spatial-v1)",
+    "tags": [
+      "Dark UI",
+      "Desktop Web",
+      "Sidebar Shell"
+    ],
+    "metrics": {
+      "width": 1024,
+      "height": 768,
+      "aspectRatio": "4:3",
+      "gridColumns": "Fixed Left Sidebar Rail + Multi-Column Main Canvas",
+      "densityProfile": "Structured Operational (8px Spatial Rhythm · 24px–32px Card Gutters)",
+      "dominantLuminance": "Dark Ground"
+    },
+    "palette": [
+      {
+        "hex": "#101010",
+        "role": "Primary Dark Canvas Ground",
+        "ratio": "45%"
+      },
+      {
+        "hex": "#303040",
+        "role": "Elevated Card & Section Surface",
+        "ratio": "24%"
+      },
+      {
+        "hex": "#A0B0C0",
+        "role": "Primary Display & Headline Ink",
+        "ratio": "10%"
+      },
+      {
+        "hex": "#402010",
+        "role": "Primary Interactive CTA Accent",
+        "ratio": "9%"
+      },
+      {
+        "hex": "#504030",
+        "role": "Structural Hairline & Grid Border",
+        "ratio": "6%"
+      },
+      {
+        "hex": "#D0D0C0",
+        "role": "Primary Display & Headline Ink",
+        "ratio": "6%"
+      }
+    ],
+    "prompts": {
+      "masterPrompt": "Build a production-grade \"Obsidian Dark & Burnt Orange — Sidebar Application Workspace\" interface matching a 1024×768 (4:3) capture with dark ground polarity.\n\n### 1. Executive Summary & Aesthetic Direction\n- **Screen Archetype**: High-precision operational web interface\n- **Luminance & Atmosphere**: Dark Ground architecture anchored on #101010 (45% canvas coverage) with elevated #303040 containers, subtle `1px solid #504030` structural hairlines, crisp #A0B0C0 display typography, and high-saturation #402010 interactive calls-to-action.\n- **Visual Discipline**: Combine generous negative space with exposed structural column rules, sharp typographic hierarchy, and zero unmotivated decorative clutter.\n\n### 2. Spatial Grid & Viewport Topology\n- **Measured Frame**: `1024px × 768px` (4:3)\n- **Grid Architecture**: Fixed Left Sidebar Rail + Multi-Column Main Canvas\n- **Container & Gutters**: `max-width: 1280px` centered container with `48px–56px` outer horizontal padding, `24px–32px` column gutters, and subtle full-height vertical grid guide hairlines (`1px solid rgba(255, 255, 255, 0.05)` on dark ground / `rgba(0, 0, 0, 0.06)` on light ground).\n- **Density & Vertical Rhythm**: Structured Operational (8px Spatial Rhythm · 24px–32px Card Gutters).\n\n### 3. Surface & Chromatic Token System\n- **Primary Canvas Ground**: `#101010` (main viewport background and negative space)\n- **Elevated Surface / Card Plane**: `#303040` (contained cards, banners, and structural modules)\n- **Glassmorphic / Translucent Overlay**: `rgba(255, 255, 255, 0.04)` with `backdrop-filter: blur(12px)` and `1px solid #504030`\n- **Primary Display & Headline Ink**: `#A0B0C0` (H1/H2 display titles, numeric counters, active labels)\n- **Secondary Body & Muted Ink**: `#D0D0C0` (body paragraphs, section kickers, navigation links, captions)\n- **Primary Interactive CTA Accent**: `#402010` (pill CTA buttons, active navigation indicators, focus rings)\n- **Structural Hairline & Grid Border**: `#504030` (card borders, section dividers, input outlines)\n\n### 4. Typography & Scannable Hierarchy\n- **Hero & Display Headlines (H1/H2)**: Geometric/Neo-grotesque sans-serif, `32px–48px` (`clamp(2rem, 3.6vw, 3rem)`), weight `500–600`, tight tracking (`-0.025em`), line-height `1.15`, set in `#A0B0C0`.\n- **Inline Section Kickers**: Parenthetical or uppercase micro-labels (`12px–13px`, `#D0D0C0`) positioned inline or indented ahead of the first line of section headings (`text-indent: 9rem` on desktop).\n- **Card Titles & Index Numerals**: Oversized tabular index counters (`36px–44px`, weight `400`, `font-variant-numeric: tabular-nums`) paired with `16px–18px` weight `600` subheadings in `#A0B0C0`.\n- **Body Copy & Captions**: `14px–15px` regular weight (`400`), line-height `1.65`, comfortable `55ch–65ch` measure in `#D0D0C0`.\n\n### 5. Section-by-Section & Component Anatomy (Top to Bottom)\n1. **Top Command & Navigation Header**:\n   - Full-width horizontal header bar (`height: 60px–68px`, `background: #303040`, `border-bottom: 1px solid #504030`, `padding: 0 32px`) housing primary brand/breadcrumb identity on the left, global context switches in the center, and a high-contrast primary action button (`background: #402010`, `color: #FFFFFF`, `border-radius: 8px`) on the right.\n2. **Primary Structural Workspace (Fixed Left Sidebar Rail + Multi-Column Main Canvas)**:\n   - Anchored on a #101010 canvas ground with subtle `1px solid #504030` structural dividers and an 8px spatial spacing scale.\n   - Left/Upper primary content zone featuring elevated #303040 cards (`border: 1px solid #504030`, `border-radius: 8px–10px`, `padding: 24px`) with bold #A0B0C0 headers, #D0D0C0 specification metadata, and semantic status badges.\n3. **Secondary Inspector / Analytical Detail Zone**:\n   - Synchronized detail panels and data tables using `font-variant-numeric: tabular-nums` for all coordinates, metrics, timestamps, and percentage deltas.\n\n### 6. Implementation & CSS Architecture Guardrails\n- Use semantic HTML5 landmarks (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>`) and CSS custom properties for all colors, spacing, and radii.\n- Enforce `font-variant-numeric: tabular-nums` on all numbered lists, metrics, and counters.\n- Lock media containers with explicit `aspect-ratio` and `object-fit: cover` so layout geometry never shifts during image loading.",
+      "layoutAnatomy": "• Viewport & Capture Profile: 1024×768px (4:3) — Single-viewport application frame\n• Global Structural Grid: Fixed Left Sidebar Rail + Multi-Column Main Canvas (1280px max-width container, 48px–56px horizontal padding, 24px–32px grid gaps)\n• Background Grid Guides: Full-height 4-column or 12-column subtle vertical hairline rules (#504030 at 35% opacity) anchoring section alignments\n• Density & Vertical Rhythm: Structured Operational (8px Spatial Rhythm · 24px–32px Card Gutters)\n• Luminance Polarity: Dark Ground (#101010 base canvas with #303040 elevated surfaces and translucent glass cards)\n• Card & Media Geometry: 6px–12px border-radius on cards and architectural thumbnails, 999px pill radius on primary #402010 CTA buttons and newsletter inputs",
+      "typographyAndHierarchy": "• Hero & Section Display Headings: 32px–48px (clamp(2rem, 3.6vw, 3rem)), weight 500–600, line-height 1.15, letter-spacing -0.025em in #A0B0C0\n• Inline Parenthetical Kickers: 12px–13px muted labels (#D0D0C0) aligned with or indented ahead of multi-line section headings\n• Editorial Index Numerals: 36px–44px tabular-nums counters (01, 02, 03, 04) in #A0B0C0 with 16px bold card titles below\n• Body & Specification Copy: 14px–15px (line-height 1.65, 60ch max measure) in #D0D0C0 with ≥4.5:1 AA contrast against #101010\n• Interactive Links & Buttons: 13px–14px weight 500 button labels and directional action links ('Learn More ↗') with crisp icon alignment",
+      "colorTokensCss": ":root {\n  /* Canvas & Surface Planes */\n  --surface-ground: #101010; /* Primary Canvas Ground (45%) */\n  --surface-elevated: #303040; /* Elevated Card & Module Surface */\n  --surface-glass: rgba(255, 255, 255, 0.04); /* Translucent Overlay Card */\n\n  /* Typography & Ink Hierarchy */\n  --ink-primary: #A0B0C0; /* Display Headlines & Primary Numerals */\n  --ink-secondary: #D0D0C0; /* Body Copy, Kickers & Navigation Links */\n  --ink-on-accent: #FFFFFF; /* High-Contrast CTA Button Label */\n\n  /* Interactive Accents & Signals */\n  --accent-primary: #402010; /* Primary CTA Button & Active Indicator */\n  --accent-hover: #402010E6; /* Hover State Fill (90% Opacity / Brightened) */\n\n  /* Structural Borders & Grid Hairlines */\n  --border-hairline: #504030; /* 1px Card & Section Divider Rule */\n  --border-grid-guide: rgba(255, 255, 255, 0.06); /* Vertical Column Guide Line */\n\n  /* Layout & Radius Tokens */\n  --radius-pill: 9999px;\n  --radius-card: 10px;\n  --radius-media: 6px;\n  --container-max: 1280px;\n}",
+      "interactionAndStates": "• Primary Pill CTA Buttons: Solid #402010 background, #FFFFFF 13px medium label, 9999px pill radius, 10px 22px padding; hover applies subtle upward translateY(-1px) and warm glow shadow\n• Directional Action Links ('Learn More ↗'): #A0B0C0 text with 45-degree diagonal arrow icon that translates 2px up-right on hover\n• Card & Thumbnail Hover States: Media frames use overflow: hidden with smooth 300ms transform: scale(1.03) on image hover and border color transition from #504030 to #402010\n• Glassmorphic Overlay Cards: backdrop-filter: blur(12px) with 1px solid #504030 border, brightening surface alpha from 0.04 to 0.08 on hover\n• Keyboard & Focus Accessibility: 2px solid #402010 :focus-visible outline with 2px offset across all interactive buttons, links, and form inputs\n• Responsive Breakpoint Collapse: 12-column desktop grid collapses to 2-column tablet grid (<1024px) and single-column vertical flow (<640px) with 24px horizontal padding"
+    }
+  },
+  {
+    "id": "ref-1794758777685",
+    "catalogCode": "QUAD-004",
+    "title": "Prime Realty Estate — Luxury Architectural Property Landing Page",
+    "sourceType": "paste",
+    "sourceLabel": "CLIPBOARD PASTE · IMAGE BUFFER",
+    "imageUrl": "/references/quad-004-1794758777687.png",
+    "createdAt": "2026-11-15T16:06:17.717Z",
+    "providerUsed": "Google Gemini Vision (gemini-3.8-flash)",
+    "tags": [
+      "Dark UI",
+      "Real Estate Landing",
+      "8-Section Full Scroll",
+      "Editorial Grid",
+      "Glassmorphic Cards"
+    ],
+    "metrics": {
+      "width": 640,
+      "height": 3118,
+      "aspectRatio": "1:4.9 Full-Page Scroll",
+      "gridColumns": "12-Column Editorial Grid · 8-Section Full-Page Vertical Scroll",
+      "densityProfile": "Multi-Section Editorial Rhythm (8 Vertical Bands · 80px–120px Section Padding)",
+      "dominantLuminance": "Dark Ground"
+    },
+    "palette": [
+      {
+        "hex": "#101010",
+        "role": "Primary Dark Canvas Ground",
+        "ratio": "72%"
+      },
+      {
+        "hex": "#181818",
+        "role": "Elevated Card & Section Surface",
+        "ratio": "12%"
+      },
+      {
+        "hex": "#F4F4F6",
+        "role": "Primary Display & Headline Ink",
+        "ratio": "6%"
+      },
+      {
+        "hex": "#9A9AA2",
+        "role": "Secondary Body & Muted Copy Ink",
+        "ratio": "5%"
+      },
+      {
+        "hex": "#F08020",
+        "role": "Primary Interactive CTA Accent",
+        "ratio": "3%"
+      },
+      {
+        "hex": "#2A2A2E",
+        "role": "Structural Hairline & Grid Border",
+        "ratio": "2%"
+      }
+    ],
+    "prompts": {
+      "masterPrompt": "Build a production-grade dark luxury architectural real estate landing page (\"Prime Realty Estate\") matching a 640×3118 (1:4.9 Full-Page Vertical Scroll) capture with dark ground architecture.\n\n### 1. Executive Summary & Aesthetic Direction\n- **Screen Archetype**: Luxury residential & commercial real estate showcase landing page spanning 8 distinct vertical narrative sections.\n- **Luminance & Atmosphere**: Deep obsidian dark mode (`#101010` canvas ground) paired with warm amber-lit twilight architectural photography, subtle full-height vertical column guide hairlines (`1px solid rgba(255, 255, 255, 0.05)`), translucent glassmorphic overlay cards, crisp white geometric typography (`#F4F4F6`), and vibrant burnt-orange pill CTAs (`#F08020`).\n- **Signature Editorial Motif**: Major section H2 headings use an inline parenthetical micro-kicker on the first line (e.g., `(About Us)`, `(We Serve)`, `(Our Services)`, `(Why Us)`, `(Our Work)`, `(Let's Connect)`) separated from the indented first line of the display headline.\n\n### 2. Spatial Grid & Viewport Topology\n- **Measured Capture**: `640px × 3118px` full-page scroll (scales to a `1280px–1440px` desktop container with `56px` outer horizontal padding and a 4-column / 12-column exposed vertical hairline grid).\n- **Vertical Section Rhythm**: 8 sequential bands separated by `80px–110px` vertical padding (`padding-block`) and anchored to the continuous vertical grid lines.\n\n### 3. Surface & Chromatic Token System\n- **Primary Canvas Ground**: `#101010` (main page backdrop across all editorial sections)\n- **Elevated Banner & Card Surface**: `#181818` to `#1E1E22` (used on the \"Let's Connect\" CTA card and footer form container)\n- **Glassmorphic Overlay Card**: `rgba(255, 255, 255, 0.04)` with `backdrop-filter: blur(12px)` and `1px solid rgba(255, 255, 255, 0.14)` border\n- **Primary Display & Headline Ink**: `#F4F4F6` (hero H1, section H2s, `01`–`04` index counters, card titles)\n- **Secondary Body & Kicker Ink**: `#9A9AA2` (body paragraphs, parenthetical kickers, navigation links)\n- **Primary Interactive CTA Accent**: `#F08020` (burnt-orange pill buttons, active nav home icon/link, footer subscribe button, brand monogram icon)\n- **Structural Hairline & Grid Rule**: `#2A2A2E` / `rgba(255, 255, 255, 0.06)`\n\n### 4. Typography & Scannable Hierarchy\n- **Hero Display Title (H1)**: Geometric sans-serif (`Plus Jakarta Sans` / `Inter`), `40px–52px`, weight `500`, line-height `1.14`, tracking `-0.02em`, color `#F4F4F6` (\"Luxury Living Spaces Designed For Modern Life\").\n- **Section Display Headings (H2)**: `26px–34px`, weight `500`, line-height `1.24`, color `#F4F4F6`, with first-line `text-indent: 140px` so the `12px` `#9A9AA2` parenthetical kicker (`(About Us)`, `(We Serve)`, etc.) sits at the left column margin.\n- **Service Index Numerals (`01`–`04`)**: `44px` light/regular geometric sans (`weight: 400`, `font-variant-numeric: tabular-nums`), color `#F4F4F6`.\n- **Card Titles & Body Copy**: `15px–16px` weight `600` `#F4F4F6` card titles paired with `13px–14px` line-height `1.6` `#9A9AA2` descriptions.\n- **Oversized Footer Wordmark**: Full-bleed uppercase display text `PRIME REALTY ESTATE` (`clamp(3.5rem, 11vw, 9rem)`, weight `700`, tracking `0.04em`, color `rgba(255, 255, 255, 0.28)`), clipped along the bottom viewport edge.\n\n### 5. Section-by-Section & Component Anatomy (Top to Bottom)\n1. **Header & Hero Showcase (Y: 0–470px)**:\n   - Top navigation bar (`height: 68px`) with left `#F08020` geometric building monogram logo, center-right nav links (`Home` active in `#F08020` with house icon, `About Us`, `Services`, `Properties`, `Contact Us` in `#E0E0E0`), and right `#F08020` rounded pill CTA button `Book Appointment`.\n   - Asymmetric 2-column hero over a moody dark skyline glow: left column holds the 3-line H1, 3-line lead paragraph, and `#F08020` `Book Appointment` button; right column features a dramatic upward-angled cutout render of a curved, illuminated modern glass condominium tower overlapping the bottom hero edge.\n2. **(About Us) Asymmetric Split Section (Y: 470–990px)**:\n   - Top inline kicker `(About Us)` + 3-line H2 headline across the upper grid.\n   - Below: left 55% column features a large twilight photograph of a modern glass villa with illuminated stone walkway; center-right column contains a 6-line narrative paragraph and `#F08020` `Book Appointment` CTA; far-right edge bleeds an offset secondary architectural detail image.\n3. **(We Serve) Full-Bleed Atmospheric Glassmorphic Strip (Y: 990–1390px)**:\n   - Full-width darkened architectural background image with top `(We Serve)` kicker + 3-line H2 (\"Luxury Properties Crafted For Modern Living...\").\n   - 4-column horizontal row below: 3 translucent glassmorphic cards (`Luxury Villas`, `Modern Apartments`, `Commercial Spaces`) framed by `1px solid rgba(255, 255, 255, 0.15)` borders with title at top-left and micro-description at bottom-left, plus a 4th right-hand column of narrative copy.\n4. **(Our Services) Numbered 01–04 Architectural Index (Y: 1390–1820px)**:\n   - `(Our Services)` kicker + 3-line H2 (\"Premium Developments Built For Comfort...\").\n   - 4-column horizontal grid (`01 Luxury Towers`, `02 Modern Residences`, `03 City Communities`, `04 Luxury...` overflowing slightly right): each column stacks the large `01` numeral, bold title, 3-line description, `Learn More ↗` link, and a rounded rectangular architectural photo thumbnail (`border-radius: 8px`, `aspect-ratio: 16/10`).\n5. **(Why Us) Balanced Split Showcase (Y: 1820–2210px)**:\n   - 2-column split: left half repeats the illuminated modern house twilight photo; right half stacks `(Why Us)` kicker, 2-line H2 (\"Helping You Invest In The Right Property\"), two paragraphs of investment advisory copy, and a `#F08020` `Book Appointment` button.\n6. **(Our Work) Staggered 3-Column Portfolio Grid (Y: 2210–2660px)**:\n   - `(Our Work)` kicker + 3-line H2 (\"Exceptional Spaces Designed For Modern Life...\").\n   - 3-column vertical portrait card grid (`Skyline Residences`, `Garden Estate Homes`, `Harbor View Towers`): columns 1 and 3 align at the top while column 2 (`Garden Estate Homes`) is staggered downward by `40px` for editorial rhythm. Each card shows a vertical portrait architectural photo above a bold title and 3-line description.\n7. **(Let's Connect) Elevated CTA Banner with Overlapping Cutout (Y: 2660–2890px)**:\n   - Contained `#181818` rounded card (`border: 1px solid #2A2A2E`, `border-radius: 10px`, `padding: 40px`) with `(Let's Connect)` kicker, H2 \"Start Your Property Journey Today\", 2-line prompt, and `#F08020` `Book Appointment` button on the left, while a symmetrical front-elevation glass building cutout rises out of the right side of the card.\n8. **Heroic Image Pre-Footer & Multi-Column Footer (Y: 2890–3118px)**:\n   - Full-width dusk architectural banner fading via dark bottom gradient into a 4-column footer: Column 1 (Orange building logo + 5 white circular social icons), Column 2 (`Quick Links` in `#F08020` + 5 vertical links), Column 3 (`Services` in `#F08020` + 5 vertical links), Column 4 (`Lorem Ipsum` contact details with phone/email/location icons, pill input `Enter Your Email` + embedded `#F08020` `Subscribe Now ↗` button, and checkbox `I agree to email receive.`).\n   - Centered copyright line above the massive full-bleed `PRIME REALTY ESTATE` wordmark along the bottom edge.\n\n### 6. Implementation & CSS Architecture Guardrails\n- Use a persistent 4-column background guide overlay (`pointer-events: none`) with `1px solid rgba(255, 255, 255, 0.05)` vertical lines.\n- Implement the inline section kicker + indented H2 pattern using a relative container where the `(Section Name)` span is positioned at `left: 0; top: 0.35em` and the `h2` uses `text-indent: 9.5rem`.",
+      "layoutAnatomy": "• Viewport & Capture Profile: 640×3118px (1:4.9 Full-Page Vertical Scroll) capturing 8 distinct horizontal narrative bands\n• Global Structural Grid: 12-column CSS Grid (1280px max-width desktop container, 48px–56px outer horizontal margins, 24px column gaps) with 4 exposed vertical background guide hairlines\n• Band 1 — Header & Hero (Y: 0–470px): 68px top nav bar + 2-column asymmetric hero (50% left typography stack, 50% right overlapping architectural tower cutout)\n• Band 2 — About Us Split (Y: 470–990px): Indented H2 header + 3-part asymmetric row (left 52% feature villa photo, center 32% narrative + CTA, right 16% offset detail thumbnail)\n• Band 3 — We Serve Glass Strip (Y: 990–1390px): Full-bleed dark photo banner with 3 equal glassmorphic feature cards (1px translucent border, 220px height) + 1 right narrative column\n• Band 4 — Our Services Index (Y: 1390–1820px): 4-column horizontal card strip (01, 02, 03, 04) with 16:10 rounded bottom thumbnails (8px border-radius)\n• Band 5 — Why Us Split (Y: 1820–2210px): 50/50 2-column split (left architectural twilight photo, right kicker + H2 + 2 paragraphs + CTA button)\n• Band 6 — Our Work Portfolio (Y: 2210–2660px): 3-column portrait gallery (4:5 image aspect ratio) with middle column staggered 40px lower\n• Band 7 — Let's Connect Banner (Y: 2660–2890px): Contained #181818 card (10px radius) with right-side overlapping building elevation render\n• Band 8 — Footer & Giant Wordmark (Y: 2890–3118px): Dusk photo header fading into 4-column footer + full-width clipped 'PRIME REALTY ESTATE' bottom wordmark",
+      "typographyAndHierarchy": "• Hero Display Headline (H1): 40px–52px geometric sans, weight 500, line-height 1.14, tracking -0.02em in #F4F4F6\n• Section Display Headings (H2): 26px–34px weight 500, line-height 1.24 in #F4F4F6 with first-line text-indent (140px) accommodating the inline parenthetical kicker\n• Inline Parenthetical Kickers: 12px regular (#9A9AA2) labels — (About Us), (We Serve), (Our Services), (Why Us), (Our Work), (Let's Connect)\n• Service Index Numerals (01–04): 44px weight 400 tabular-nums sans in #F4F4F6\n• Card & Portfolio Titles: 15px–16px weight 600 in #F4F4F6 above 13px line-height 1.6 muted copy (#9A9AA2)\n• Footer Column Headers: 14px weight 600 in #F08020 ('Quick Links', 'Services', 'Lorem Ipsum')\n• Clipped Footer Wordmark: Full-bleed uppercase 'PRIME REALTY ESTATE' in clamp(3.5rem, 11vw, 9rem) weight 700, color rgba(255, 255, 255, 0.28)",
+      "colorTokensCss": ":root {\n  /* Canvas & Surface Planes */\n  --surface-ground: #101010; /* Primary Obsidian Canvas Ground (72%) */\n  --surface-elevated: #181818; /* CTA Banner & Footer Form Surface (12%) */\n  --surface-glass: rgba(255, 255, 255, 0.04); /* 'We Serve' Translucent Card */\n\n  /* Typography & Ink Hierarchy */\n  --ink-primary: #F4F4F6; /* Display Headlines, 01-04 Numerals & Titles */\n  --ink-secondary: #9A9AA2; /* Body Copy, Parenthetical Kickers & Captions */\n  --ink-wordmark: rgba(255, 255, 255, 0.28); /* Giant Footer Wordmark */\n\n  /* Interactive Accents & Signals */\n  --accent-orange: #F08020; /* Primary Pill CTA, Active Nav & Footer Headings */\n  --accent-orange-hover: #FF9233; /* Brightened CTA Hover Fill */\n\n  /* Structural Borders & Grid Hairlines */\n  --border-hairline: #2A2A2E; /* Contained Card & Input Border */\n  --border-glass: rgba(255, 255, 255, 0.14); /* Glassmorphic Card Outline */\n  --border-grid-guide: rgba(255, 255, 255, 0.05); /* Full-Height Vertical Column Rule */\n\n  /* Radius & Spacing Tokens */\n  --radius-btn: 6px;\n  --radius-pill: 9999px;\n  --radius-card: 10px;\n}",
+      "interactionAndStates": "• Primary 'Book Appointment' CTA Buttons: Solid #F08020 fill, #FFFFFF 13px medium text, 6px–8px rounded corners, 10px 20px padding; hover elevates with warm orange glow (0 8px 20px rgba(240, 128, 32, 0.35))\n• Top Navigation Bar: Active 'Home' link highlighted in #F08020 with inline mini house icon; sibling links transition from #D0D0D5 to #F08020 on hover\n• 'We Serve' Glassmorphic Cards: backdrop-filter: blur(12px) with 1px solid rgba(255, 255, 255, 0.14) border; hovering brightens border to rgba(240, 128, 32, 0.5) and background alpha to 0.08\n• 'Learn More ↗' Service Links: Inline 13px #F4F4F6 link with diagonal north-east arrow icon that translates (2px, -2px) on hover\n• Portfolio & Service Thumbnails: Overflow-hidden rounded frames with smooth 350ms transform: scale(1.04) image zoom on card hover\n• Footer Newsletter Pill Form: Composite rounded pill container (#181818, 1px solid #2A2A2E) housing 'Enter Your Email' input on the left and embedded #F08020 'Subscribe Now ↗' pill button on the right"
+    }
+  }
+]

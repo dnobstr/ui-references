@@ -1,6 +1,6 @@
 # UI References Studio
 
-**Turn any UI screenshot into a ready-to-use design prompt.** Browse curated interface references or drop in your own screenshots to extract structured layouts, color palettes, typography, and CSS tokens for your favorite AI coding and design tools.
+**Turn any UI screenshot into a ready-to-use design prompt.** Originally built as a local-only tool, it is now hosted on Vercel to free up `localhost`—just open the site, search curated interface references, or drop in your own screenshots to extract structured layouts, color palettes, typography, and CSS tokens for your favorite AI coding and design tools.
 
 ---
 
